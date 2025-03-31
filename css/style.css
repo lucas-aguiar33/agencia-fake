@@ -14,16 +14,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
 }
 
 
 
 .header {
+    width:100vw;
     display: flex;
-    justify-content: space-between;
-    width:80vw;
-    margin:auto;
+    justify-content: space-around;
     padding-top:30px;
+    position: fixed;
+    background-color: white;
 }
 
 .header h1 {
@@ -182,6 +187,7 @@ section {
 }
 
 footer {
+    width:100%;
    height: 200px;
    background-color: var(--cor-1);
    color:#fff;
@@ -197,3 +203,10 @@ footer {
 footer h2 {
     font-family: 'Lobster', sans-serif;
 }
+
+.logo-wpp {
+    position:fixed;
+    bottom:20px;
+    right:10px;
+}
+
