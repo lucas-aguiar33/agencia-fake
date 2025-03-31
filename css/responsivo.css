@@ -1,0 +1,37 @@
+@media screen and (max-width: 920px) {
+
+    .area-cards {
+        display: block;
+    }
+
+    .card {
+        width:100%;
+        margin-top:10px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+    
+
+    section.home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-text, .home-img {
+        width:100%;
+        margin-bottom:20px;
+    }
+
+    .menu-padrao {
+        display: none;
+    }
+
+}

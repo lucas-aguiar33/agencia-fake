@@ -26,6 +26,7 @@ body {
     width:100vw;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-top:30px;
     position: fixed;
     background-color: white;
@@ -209,4 +210,3 @@ footer h2 {
     bottom:20px;
     right:10px;
 }
-
